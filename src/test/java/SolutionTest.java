@@ -29,4 +29,13 @@ public class SolutionTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void shortestPathAllKeysTest4() {
+        String[] grid = {"@...a",".###A","b.BCc"};
+        int expected = 10;
+        int actual = new Solution().shortestPathAllKeys(grid);
+
+        Assert.assertEquals(expected, actual);
+    }
+
 }
